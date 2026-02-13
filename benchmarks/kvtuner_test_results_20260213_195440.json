@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-02-13T19:54:30.129272",
+  "model": "/data/Qwen/Qwen2.5-7B",
+  "ttft": [
+    {
+      "prompt_length": 10,
+      "avg_ttft_ms": 2.4656454722086587,
+      "min_ms": 1.2421607971191406,
+      "max_ms": 3.1862258911132812
+    },
+    {
+      "prompt_length": 50,
+      "avg_ttft_ms": 2.327521642049154,
+      "min_ms": 2.0155906677246094,
+      "max_ms": 2.8748512268066406
+    },
+    {
+      "prompt_length": 100,
+      "avg_ttft_ms": 2.396186192830404,
+      "min_ms": 2.093076705932617,
+      "max_ms": 2.795696258544922
+    },
+    {
+      "prompt_length": 500,
+      "avg_ttft_ms": 2.2998650868733725,
+      "min_ms": 2.227783203125,
+      "max_ms": 2.4042129516601562
+    },
+    {
+      "prompt_length": 1000,
+      "avg_ttft_ms": 3.0426979064941406,
+      "min_ms": 2.6040077209472656,
+      "max_ms": 3.4761428833007812
+    }
+  ],
+  "throughput": [
+    {
+      "concurrency": 1,
+      "throughput_req_per_sec": 359.56313759108446,
+      "avg_latency_ms": 2.147197723388672,
+      "success_rate": 1.0
+    },
+    {
+      "concurrency": 2,
+      "throughput_req_per_sec": 384.8514933247695,
+      "avg_latency_ms": 3.687739372253418,
+      "success_rate": 1.0
+    },
+    {
+      "concurrency": 4,
+      "throughput_req_per_sec": 482.9643617940008,
+      "avg_latency_ms": 5.193769931793213,
+      "success_rate": 1.0
+    },
+    {
+      "concurrency": 8,
+      "throughput_req_per_sec": 539.6078027756782,
+      "avg_latency_ms": 5.180120468139648,
+      "success_rate": 1.0
+    }
+  ],
+  "memory": {}
+}
