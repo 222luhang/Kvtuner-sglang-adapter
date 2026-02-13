@@ -12,7 +12,7 @@ from datetime import datetime
 import sys
 
 # Configuration
-BASE_URL = "http://localhost:30000"
+BASE_URL = "http://localhost:30001"
 MODEL_PATH = "/data/Qwen/Qwen2.5-7B"
 
 # Test prompts of varying lengths
